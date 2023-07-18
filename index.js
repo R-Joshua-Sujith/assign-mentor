@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
 
-const Mentor = require('./models/mentor');
-const Student = require('./models/student');
+const Mentor = require('./models/Mentor');
+const Student = require('./models/Student');
 
 
 dotenv.config();
